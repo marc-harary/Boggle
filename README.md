@@ -6,6 +6,6 @@ The usage is as follows:
 
 `Boggle [-c] [-t] nRows nCols board`
 
-where using the `-c` flag prints out all words in the dictionary that are not found in the board; using `-t` enables the program to use the same letters multiple times.
+where using the `-c` flag prints out all words in the dictionary that are not found in the board and using `-t` enables the program to use the same letters multiple times.
 
 The program uses a depth-first graph search algorithm to walk to the board and stores the word from the dictionary in a trie.

@@ -8,4 +8,4 @@ The usage is as follows:
 
 where using the `-c` flag prints out all words in the dictionary that are not found in the board and using `-t` enables the program to use the same letters multiple times.
 
-The program uses a depth-first graph search algorithm to walk the board and a trie to store words from the dictionary. It then uses a queue to print all words to the terminal.
+The program uses a depth-first graph search algorithm to walk the board and a trie to store words from the dictionary. It then uses a queue to print all words to the terminal in alphabetical order.
